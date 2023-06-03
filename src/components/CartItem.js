@@ -7,7 +7,7 @@ import { CartContext } from "../contexts/CartContext";
 
 const CartItem = ({ item }) => {
   const {removeFromCart,incraseAmount,decraseAmount} =useContext(CartContext)
-  const { id, image, category, title, price, amount } = item;
+  const { id, image, title, price, amount } = item;
   return (
     <div
       style={{
@@ -32,7 +32,7 @@ const CartItem = ({ item }) => {
       >
         {/* image */}
         <Link to={`product/${id}`}>
-          <img src={image} style={{ maxWidth: "70px" }} />
+          <img src={image} style={{ maxWidth: "70px" }} alt="img"/>
         </Link>
         <div
           style={{ display: "flex", width: "100%", flexDirection: "column" }}
