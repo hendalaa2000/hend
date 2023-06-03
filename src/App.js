@@ -11,15 +11,15 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
-       <Header />
+    <>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ProductDetails/>} />
       </Routes>
       <Sidebar />
       <Footer /> 
-    </div>
+    </>
   );
 };
 

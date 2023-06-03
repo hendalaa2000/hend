@@ -17,6 +17,9 @@
 
 /*============================== Start small screen of mobile =========================*/
 @media (max-width: 768px) {
+    .sidebar{
+        width: 41vw !important;
+    }
 
 }
 @media (min-width: 768px) and (max-width: 2560px) {
@@ -32,13 +35,20 @@
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+    
 }
 
 @media (max-width: 426px) {
+    .sidebar {
+        width: 74vw !important;
+    }
 }
 
 @media (max-width: 1024px) {
 }
 
-@media (max-width: 779px) {
+@media (max-width: 425px) {
+    .sidebar {
+        width: 100vw !important;
+    }
 }
