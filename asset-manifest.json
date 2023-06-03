@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hend/static/css/main.80888f93.css",
+    "main.js": "/hend/static/js/main.1077007d.js",
+    "static/media/woman_hero.png": "/hend/static/media/woman_hero.d109717db264ec684e97.png",
+    "static/media/bg_hero.svg": "/hend/static/media/bg_hero.5b3a28da99dfd198982f0132355d9005.svg",
+    "static/media/logo.svg": "/hend/static/media/logo.7740ae04391d2ede26528c55d3b0102f.svg",
+    "index.html": "/hend/index.html",
+    "main.80888f93.css.map": "/hend/static/css/main.80888f93.css.map",
+    "main.1077007d.js.map": "/hend/static/js/main.1077007d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80888f93.css",
+    "static/js/main.1077007d.js"
+  ]
+}
